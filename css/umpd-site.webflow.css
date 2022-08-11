@@ -131,6 +131,15 @@ figcaption {
 .logo-block {
   z-index: 10;
   margin-right: 30px;
+  background-image: url('../images/miko.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.logo-block.w--current {
+  background-image: url('../images/miko.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
 }
 
 .logo-block.no-menu {
@@ -8829,6 +8838,17 @@ html.w-mod-js *[data-ix="hide-lightbox"] {
   grid-row-end: span 1;
 }
 
+#w-node-_094241b9-813e-4355-aeca-1898b145e9fa-613a54dc {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
 #w-node-_6a8297fe-78cc-833e-4f0f-0128859624a2-613a54dc {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
@@ -8873,7 +8893,18 @@ html.w-mod-js *[data-ix="hide-lightbox"] {
   grid-row-end: span 1;
 }
 
-#w-node-_6a8297fe-78cc-833e-4f0f-0128859624a6-613a54dc {
+#w-node-c4ab4036-c3a2-11a9-33b5-900ef240e05e-613a54dc {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-_38200888-b637-f597-1d41-481462212297-613a54dc {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
