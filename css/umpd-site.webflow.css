@@ -130,13 +130,22 @@ figcaption {
 
 .logo-block {
   z-index: 10;
-  margin-right: 30px;
+  margin-top: -41px;
+  margin-right: -2px;
+  margin-left: 61px;
+  border-radius: 20px;
   background-image: url('../images/miko.jpg');
   background-position: 0px 0px;
   background-size: cover;
+  -o-object-fit: none;
+  object-fit: none;
 }
 
 .logo-block.w--current {
+  position: relative;
+  margin-top: -40px;
+  margin-left: 71px;
+  border-radius: 20px;
   background-image: url('../images/miko.jpg');
   background-position: 50% 50%;
   background-size: cover;
@@ -4075,8 +4084,8 @@ figcaption {
   background-color: rgba(0, 0, 0, 0.8);
   background-image: url('../images/IMG_0834.jpg'), -webkit-gradient(linear, left top, left bottom, from(#090000), to(#090000));
   background-image: url('../images/IMG_0834.jpg'), linear-gradient(180deg, #090000, #090000);
-  background-position: 0px 0px, 0px 0px;
-  background-size: auto, auto;
+  background-position: 50% 50%, 0px 0px;
+  background-size: cover, auto;
   color: gold;
   background-clip: padding-box;
   -webkit-text-fill-color: inherit;
